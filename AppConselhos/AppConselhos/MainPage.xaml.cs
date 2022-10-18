@@ -14,5 +14,11 @@ namespace AppConselhos
         {
             InitializeComponent();
         }
+
+        private void btnPrevisao_Clicked(object sender, EventArgs e)
+        {
+       var result = DisplayAlert("Alerta", "Deseja realmente sair?", "Sim", "Não");
+    } 
+
     }
 }

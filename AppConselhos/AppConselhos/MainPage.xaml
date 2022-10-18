@@ -4,7 +4,10 @@
              x:Class="AppConselhos.MainPage">
 
     <StackLayout>
-       
-    </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"/>
+        <Label Text="Precisa de um conselho?"/>
+        <Button Clicked="btnPrevisao_Clicked" Text="SIM" WidthRequest="185"></Button>
+            </StackLayout>
+
 
 </ContentPage>
