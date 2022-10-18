@@ -17,7 +17,7 @@ namespace AppConselhos
 
         private void btnPrevisao_Clicked(object sender, EventArgs e)
         {
-       var result = DisplayAlert("Alerta", "Deseja realmente sair?", "Sim", "Não");
+       var result = DisplayAlert("Alerta", "Deseja realmente sair?", "ok");
     } 
 
     }
